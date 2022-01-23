@@ -61,3 +61,4 @@ const getMintPrice = (candyMachine: CandyMachineAccount): string => {
   );
   return `◎ ${price}`;
 };
+

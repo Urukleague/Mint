@@ -170,7 +170,7 @@ const Home = (props: HomeProps) => {
           {!wallet.connected ? (
             <ConnectButton>Connect Wallet</ConnectButton>
           ) : (
-            <>
+           <>
               <Header candyMachine={candyMachine} />
               <MintContainer>
                 {candyMachine?.state.isActive &&
